@@ -1,0 +1,296 @@
+@media only screen and (max-width:400px) {
+    body {width:100%;}
+}
+@media only screen and (min-width:320px) {
+    body {max-width:320px;}
+}
+
+
+/**************************************************
+                  Global styles
+***************************************************/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+    margin:0; padding:0; 
+    border:0; outline:0; 
+    font-size:100%; 
+    vertical-align:baseline; 
+    background:transparent; 
+    list-style-type:none; 
+    }
+
+ol, ul {list-style: none;}
+a img {border:none;}
+aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block}
+html, body {width:100%;    height:100%;}
+
+html, body {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:12px;
+    color: black;
+    margin:0 0 1px;
+    line-height:normal;
+    background:url(images/bg1.png) left top repeat;
+     margin:0 auto;
+    
+}
+p {margin-bottom:10px; line-height:17px;}
+a, p a {text-decoration:none; color:#f0b400;}
+a:hover {text-decoration:underline;}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-weight: normal; position:relative;
+}
+h1 {
+    font-size: 35px; line-height:1.6;
+    color:black; text-transform:capitalize;
+    text-align:left; margin-left:40px;
+    border-bottom:1px dotted black;
+}
+h1 span {
+    line-height:1.7px; color:black;
+    font-size:14px; text-transform:none;
+    display:block;
+}
+h2 {
+    background-color: transparent;
+    border-bottom: 1px dotted black;
+    color: #F0B400;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+    text-align: left;
+    text-transform: none;
+}
+h3 {
+    font-size:18px; line-height:1.6;
+    color:#f0b400; text-transform:none;
+    text-align:left; background-color:transparent;
+    border-bottom:1px dotted black; margin-bottom:5px;
+}
+h3 span {
+    font-size: 12px; color: black;
+    text-transform:capitalize;
+    height:24px; margin-top:15px;
+    text-align:left; display:block;
+}
+h4 {
+    font-size:16px;
+    color:black; text-align:left; font-weight:bold;
+    padding-top:8px; margin-bottom:12px;
+}
+h4 span {
+    font-weight:bold;
+    font-size:15px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    background-color:#FFCC33;
+    padding:3px 8px;
+    margin-left:10px;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+}
+
+#wrap{
+    min-height:370px; background:#FFFFFF; padding:0px 5px;    
+    -moz-box-shadow: 0 0 5px 5px #D8D8D8;
+    -webkit-box-shadow: 0 0 5px 5px #D8D8D8;
+    box-shadow: 0 0 5px 5px #D8D8D8;
+    }
+#mainContent{min-height:370px;}
+
+/* Header Navigation --------------------------------------------*/
+
+header {
+    position: relative;    float:left;
+    width: 100%; height:100px;
+}
+#logo {
+    margin:5px 0px 5px 60px;
+    width:170px; height:56px; display:block;
+}
+
+nav {
+    position: relative;
+    width:297px; height:31px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    background:black;
+    padding:0px 5px 0px 8px;
+}
+nav ul li {
+    float: left;
+    margin:0px 1px;
+    line-height:normal;
+}
+nav ul li a {
+    font-size:12px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    color: white;
+    text-transform:capitalize;
+    font-weight:normal;
+    display:block;    /* IE6, IE7 line height fix */
+    padding:8px 10px;
+    background-color:transparent;
+    margin-top:0px;
+    margin-right:2px;
+    text-decoration:none;
+}
+nav ul li a:hover {
+    color: white;
+    background-color:#FFCC33;
+    text-decoration:none;
+}
+nav ul li a.current {
+    background-color:#FFCC33;
+    padding:8px 10px;
+}
+
+/* Body Text --------------------------------------------*/
+.holder_content {
+    background:white; padding:0px 5px 6px;
+    clear:both;    margin:0px;
+}
+
+.holder_content section{
+    clear:both;
+    position: relative;
+    background:white;
+    }
+    
+.holder_content section article{
+    clear:both;    margin-right:0px;
+    border-bottom:1px dotted black;
+    }
+.holder_content .block{color:inherit; text-decoration:none;}
+
+.holder_content section article span {
+    font-weight:bold;
+    font-size:12px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    color:#333333;
+}
+
+
+/* Footer --------------------------------------------*/
+
+#footer{ 
+    padding:10px 6px 0px; margin-bottom:10px;  
+    color:#fff; font-size:11px; min-height:30px; 
+    clear:both;
+    background:#000;
+  }
+#footer p{float:right;}
+#footer p:first-child{float:left; }
+
+
+/*Contact Form --------------------------------------------*/
+.input_box input:hover, input:focus, textarea:hover, textarea:focus{
+    border-color:#cbcaca;
+}
+.input_box{padding-bottom:4px; font-size:13px;}
+.input_box .input_box{
+    border:1px solid #D9D9D9; width:248px; 
+    font-size:12px; color:#6c6c6c; 
+    height:15px; background:#eaeaea; 
+    border-radius: 5px 5px 5px 5px;
+    }
+
+.input_box .select_box{
+    width:250px; height:20px; border:1px solid #D9D9D9; 
+    margin-bottom:2px; overflow:hidden; border-radius: 5px 5px 5px 5px;
+    background:#eaeaea url(images/down_arrow.gif) no-repeat right;    
+    }
+.input_box .select_box select{
+    background:transparent; padding:0px 1px; font-size:16px; 
+    width:270px; height:20px; border:none;        
+    font-size:12px; color:#6c6c6c;
+    -webkit-appearance:none;
+    }
+
+.submit_button {
+    background:#FFCC33; font-weight: bold; outline:0px; height:25px; 
+    color: #454545; cursor: pointer; font-size:13px; padding:0px 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    -khtml-border-radius:5px; -opera-border-radius:5px;
+    -webkit-border-radius:5px; -moz-border-radius:5px;
+    border-radius:5px; border:1px solid #ffcd24;
+}
+
+/*================= New Add Css =====================*/
+.margin_bottom{margin-bottom:10px;}
+.margin_bottom .lable{width:150px; display:block; float:left; padding-top:2px}
+
+.margin_bottom .TextBox{
+  width:300px;
+  padding:3px;
+  background:#eaeaea;
+  -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    -opera-border-radius:5px;
+    border-radius:5px;
+  border:1px solid #d9d9d9;
+}
+
+.margin_bottom .TextBoxError{
+  width:300px;
+  padding:3px;
+  background:#eaeaea;
+  -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    -opera-border-radius:5px;
+    border-radius:5px;
+  border:1px solid #ff0000;
+}
+
+.SubmitButton{
+    background:url(images/submit-bttn.png) no-repeat scroll 0 0 transparent;
+    border:0 solid #A3B00E;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow:0 1px 2px #FFFFFF inset;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    height:24px; width:110px;
+    margin-right:8%;
+    overflow: hidden;
+    text-transform: uppercase;    
+}
+.contactTextDiv {color: #515151; float: left; width: 140px;}
+
+.errorRed
+{
+  color:#ff0000;
+  font-weight:bold;
+}
+
+
+
+.errorStatementDiv {
+  margin:0px 0px 10px;
+  color:#ff0000;
+}
+
+.submitButtonDiv {
+    height: 24px;
+    padding: 0 0 30px 0;
+}
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

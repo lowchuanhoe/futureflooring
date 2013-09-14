@@ -1,0 +1,14 @@
+<%@ Master Language="C#" MasterPageFile="~/masterpages/MasterTemplate.master" AutoEventWireup="true" %>
+  
+<asp:Content ContentPlaceHolderId="contentPlaceholderPage" runat="server">
+  <!-- Insert "contentPlaceholderPage" markup here -->
+  <!--start holder-->
+  <div class="holder_content">
+  <section> 
+  <umbraco:Item field="body" runat="server" />
+    </section>
+  <umbraco:Macro Alias="SidebarPanel" runat="server" />  
+  </div>
+  <!--end holder-->
+  
+</asp:Content>

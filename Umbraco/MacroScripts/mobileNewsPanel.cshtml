@@ -1,0 +1,22 @@
+﻿@{
+  var homeNode = Model.AncestorOrSelf(1);
+  
+}
+
+    <section>
+    @if(Model.Children.Count() > 0) {
+       foreach(var newsItem in Model.Children) {                                
+        <article>
+          <h4>@newsItem.Title <span>@newsItem.date.ToString("dd.MM.yyyy")</span></h4>
+          <a href="@newsItem.Url">@newsItem.excerpt</a>
+                                               
+        </article> 
+      }                                   
+    }
+
+    @if(Model.body.ToString() != string.Empty) {
+        @Model.body
+     }   
+      
+    </section>
+ 

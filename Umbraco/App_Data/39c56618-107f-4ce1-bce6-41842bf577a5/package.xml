@@ -1,0 +1,2260 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>contactusUC.ascx</guid>
+      <orgPath>~/usercontrols</orgPath>
+      <orgName>contactusUC.ascx</orgName>
+    </file>
+    <file>
+      <guid>footerPanel.cshtml</guid>
+      <orgPath>/macroScripts</orgPath>
+      <orgName>footerPanel.cshtml</orgName>
+    </file>
+    <file>
+      <guid>headerPanel.cshtml</guid>
+      <orgPath>/macroScripts</orgPath>
+      <orgName>headerPanel.cshtml</orgName>
+    </file>
+    <file>
+      <guid>metaTags.cshtml</guid>
+      <orgPath>/macroScripts</orgPath>
+      <orgName>metaTags.cshtml</orgName>
+    </file>
+    <file>
+      <guid>mobileFooterPanel.cshtml</guid>
+      <orgPath>/macroScripts</orgPath>
+      <orgName>mobileFooterPanel.cshtml</orgName>
+    </file>
+    <file>
+      <guid>mobileHeaderPanel.cshtml</guid>
+      <orgPath>/macroScripts</orgPath>
+      <orgName>mobileHeaderPanel.cshtml</orgName>
+    </file>
+    <file>
+      <guid>mobileMainPanel.cshtml</guid>
+      <orgPath>/macroScripts</orgPath>
+      <orgName>mobileMainPanel.cshtml</orgName>
+    </file>
+    <file>
+      <guid>c4255ab6-4919-42cf-8936-c8be4b49ad6e_mobileMainPanel.cshtml</guid>
+      <orgPath>/macroScripts</orgPath>
+      <orgName>mobileMainPanel.cshtml</orgName>
+    </file>
+    <file>
+      <guid>mobileNewsPanel.cshtml</guid>
+      <orgPath>/macroScripts</orgPath>
+      <orgName>mobileNewsPanel.cshtml</orgName>
+    </file>
+    <file>
+      <guid>newsDetailsPanel.cshtml</guid>
+      <orgPath>/macroScripts</orgPath>
+      <orgName>newsDetailsPanel.cshtml</orgName>
+    </file>
+    <file>
+      <guid>newsPanel.cshtml</guid>
+      <orgPath>/macroScripts</orgPath>
+      <orgName>newsPanel.cshtml</orgName>
+    </file>
+    <file>
+      <guid>sidebarPanel.cshtml</guid>
+      <orgPath>/macroScripts</orgPath>
+      <orgName>sidebarPanel.cshtml</orgName>
+    </file>
+    <file>
+      <guid>freshIdeasUC.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>freshIdeasUC.dll</orgName>
+    </file>
+    <file>
+      <guid>jquery-1.4.4.min.js</guid>
+      <orgPath>/scripts</orgPath>
+      <orgName>jquery-1.4.4.min.js</orgName>
+    </file>
+    <file>
+      <guid>logo.png</guid>
+      <orgPath>/media/14</orgPath>
+      <orgName>logo.png</orgName>
+    </file>
+    <file>
+      <guid>picture3.jpg</guid>
+      <orgPath>/media/175</orgPath>
+      <orgName>picture3.jpg</orgName>
+    </file>
+    <file>
+      <guid>picture1.jpg</guid>
+      <orgPath>/media/194</orgPath>
+      <orgName>picture1.jpg</orgName>
+    </file>
+    <file>
+      <guid>picture2.jpg</guid>
+      <orgPath>/media/211</orgPath>
+      <orgName>picture2.jpg</orgName>
+    </file>
+    <file>
+      <guid>picture4.jpg</guid>
+      <orgPath>/media/216</orgPath>
+      <orgName>picture4.jpg</orgName>
+    </file>
+    <file>
+      <guid>picture5.jpg</guid>
+      <orgPath>/media/221</orgPath>
+      <orgName>picture5.jpg</orgName>
+    </file>
+    <file>
+      <guid>main_logo.gif</guid>
+      <orgPath>/media/433</orgPath>
+      <orgName>main_logo.gif</orgName>
+    </file>
+    <file>
+      <guid>banner1.png</guid>
+      <orgPath>/media/94</orgPath>
+      <orgName>banner1.png</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>WebAndMobile</name>
+      <version>v1.0</version>
+      <license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+      <url>WebAndMobile</url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Shaishav Karnani</name>
+      <website>http://www.linkedin.com/in/shaishavkarnani</website>
+    </author>
+    <readme><![CDATA[Install Instructions:-
+Install 51Degrees.mobi package before running the site.
+
+Overview:-
+Desktop Sites are not mobile-friendly when viewed from the Mobile devices. Mobile Sites need to provide users precisely what they are looking for quickly and simply. There are four times as many mobile devices than desktop computers.
+
+A staggering 2 billion people worldwide have a mobile device. A majority of searches are now coming from these devices. Mobile friendly sites can boost site SEO and overall user experience.
+
+I have built a demo site that uses common CMS for Mobile and Desktop site.
+
+Feature List:-
+•	It allows mobile site to access from same link instead of building a separate m.url. Therefore, helping site to gain more traffic and benefit from SEO.
+•	It uses common content but Mobile Templates can be separately created to provide optimised mobile look.
+•	As it’s a common CMS so cost of development gets reduced.
+]]></readme>
+  </info>
+  <Documents>
+    <DocumentSet importMode="root">
+      <HomeTemplate id="1057" parentID="-1" level="1" writerID="0" creatorID="0" nodeType="1048" template="1049" sortOrder="2" createDate="2012-04-02T18:05:23" updateDate="2012-04-18T18:00:51" nodeName="Home" urlName="home" writerName="admin" creatorName="admin" path="-1,1057" isDoc="">
+        <homePageImage>1069</homePageImage>
+        <homePageImageText><![CDATA[
+<h1>We serve fresh ideas</h1>
+
+<p>A website from&nbsp;<a
+href="http://www.linkedin.com/in/shaishavkarnani" target="_blank"
+title="Shaishav Karnani">Shaishav Karnani</a>&nbsp;to demonstrate
+the Umbraco content management system and how we have customised it
+for smartphones.&nbsp;<br />
+ <a href="/{localLink:1060}" title="About US" class="button">Read
+all about it</a></p>
+]]></homePageImageText>
+        <homePageMobileImage />
+        <headerLogo>1059</headerLogo>
+        <mobileHeaderLogo>1108</mobileHeaderLogo>
+        <mobileBodyContent><![CDATA[
+<h2>Welcome to fresh ideas</h2>
+
+<p>This website&nbsp;is a demonstration of the capabilities of one
+of our favourite web content management systems, Umbraco. The
+purpose of the demonstration is to show:</p>
+
+<p>&nbsp;- how easy it is to change a website without having to
+call a programmer;</p>
+
+<p>&nbsp;- how you can enable your website for smartphones (and
+tablets); and</p>
+
+<p>&nbsp;- how you can manage content in an <em>offline</em>
+'app'.</p>
+
+<p>To view the mobile version of this website, simply access the
+site from your Android, Apple (or other) device. Or click the link
+in the footer.</p>
+]]></mobileBodyContent>
+        <body><![CDATA[
+<h2>Welcome to fresh ideas</h2>
+
+<p>This website&nbsp;is a demonstration of the capabilities of one
+of our favourite web content management systems, Umbraco. The
+purpose of the demonstration is to show:</p>
+
+<p>&nbsp;- how easy it is to change a website without having to
+call a programmer;</p>
+
+<p>&nbsp;- how you can enable your website for smartphones (and
+tablets); and</p>
+
+<p>&nbsp;- how you can manage content in an <em>offline</em>
+'app'.</p>
+
+<p>To view the mobile version of this website, simply access the
+site from your Android, Apple (or other) device. Or click the link
+in the footer.</p>
+]]></body>
+        <navigationLinks>
+          <links>
+            <link title="Home" link="1057" type="internal" newwindow="0" />
+            <link title="About Us" link="1060" type="internal" newwindow="0" />
+            <link title="News" link="1061" type="internal" newwindow="0" />
+            <link title="Contact" link="1067" type="internal" newwindow="0" />
+          </links>
+        </navigationLinks>
+        <metaTitle>Freash Ideas</metaTitle>
+        <metaDescription><![CDATA[]]></metaDescription>
+        <umbracoNaviHide>0</umbracoNaviHide>
+        <StandardTemplate id="1060" parentID="1057" level="2" writerID="0" creatorID="0" nodeType="1050" template="1051" sortOrder="0" createDate="2012-04-02T18:21:07" updateDate="2012-04-18T18:02:51" nodeName="About US" urlName="about-us" writerName="admin" creatorName="admin" path="-1,1057,1060" isDoc="">
+          <body><![CDATA[
+<h2>About</h2>
+
+<p><img src="/media/194/picture1.jpg" width="200" height="97" alt="About US Image"/></p>
+
+<h3>It's Easy</h3>
+
+<p>We love Umbraco as it is so user friendly - our clients usually
+pick it up fast and with zero training. One of the aims of this
+demonstration is to show you this.&nbsp;You'll be managing the
+content of this very website.</p>
+
+<h3>Managing mobile websites</h3>
+
+<p>If you view this page on a moblie device, you won't be reading
+this. You'll be reading an abridged version of this page.</p>
+
+<p>People who access websites from smartphones benefit from a
+<strong>simplified version of the website</strong>. This is easily
+achievable.</p>
+
+<p>We have taken this a step further by customising the Umbraco
+website content management system so that it can <strong>display
+different content on mobile devices</strong> - where
+appropriate.</p>
+
+<p>Sometimes you want to display the <strong>same content</strong>
+and you can do that too without doubling up - simply leave out the
+mobile content.</p>
+
+<h3>Content Management of Offline 'Apps'</h3>
+
+<p>One of the primary reasons we are asked to build apps for our
+customers is because mobile websites may not be accessible due to
+<strong>restricted internet access</strong> while travelling. The
+obvious solution is to build an app that can be installed and
+viewed without an internet connection.</p>
+
+<p>At the same time our customers would also like to be able to
+periodically <strong>update the content</strong> on these offline
+apps. That's where it becomes a little more tricky
+(=expensive).</p>
+
+<p>We have devised a simple alternative solution that is the best
+of both worlds. This is actually a mobile website, but all pages
+are still <strong>viewable without an internet connection</strong>.
+The only provisos are that the&nbsp;website must be simple and that
+your users must access the website once before they go offline,</p>
+
+<h3>Try it</h3>
+
+<p><a href="/{localLink:1109}" title="Try">See how it works</a>
+with step-by-step instructions on how to manage standard web
+content, mobile content and offline content.</p>
+]]></body>
+          <mobileBodyContent><![CDATA[
+<h2>About Us</h2>
+
+<p><img src="/media/194/picture1.jpg" width="200" height="97" alt="About US Image"/></p>
+
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+molestie. Sed aliquam sem ut arcu. Phasellus sollicitudin.
+Vestibulum condimentum facilisis nulla. In hac habitasse platea
+dictumst. Nulla nonummy. Lorem ipsum dolor sit amet, consectetuer
+adipiscing elit. Donec molestie. Sed aliquam sem ut arcu. Phasellus
+sollicitudin. Vestibulum condimentum facilisis nulla.</p>
+]]></mobileBodyContent>
+          <metaTitle />
+          <metaDescription><![CDATA[]]></metaDescription>
+          <umbracoNaviHide>0</umbracoNaviHide>
+        </StandardTemplate>
+        <NewsTemplate id="1061" parentID="1057" level="2" writerID="0" creatorID="0" nodeType="1052" template="1053" sortOrder="1" createDate="2012-04-02T18:21:35" updateDate="2012-04-02T18:30:17" nodeName="News" urlName="news" writerName="admin" creatorName="admin" path="-1,1057,1061" isDoc="">
+          <body><![CDATA[]]></body>
+          <metaTitle />
+          <metaDescription><![CDATA[]]></metaDescription>
+          <NewsDetailsTemplate id="1089" parentID="1061" level="3" writerID="0" creatorID="0" nodeType="1087" template="1088" sortOrder="1" createDate="2012-04-03T13:23:53" updateDate="2012-04-05T16:09:59" nodeName="News 1" urlName="news-1" writerName="admin" creatorName="admin" path="-1,1057,1061,1089" isDoc="">
+            <title>News 1</title>
+            <date>2012-01-11T00:00:00</date>
+            <newsImage>1082</newsImage>
+            <excerpt><![CDATA[
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting
+industry. Lorem Ipsum has been the industry's standard dummy text
+ever since the 1500s,</p>
+]]></excerpt>
+            <details><![CDATA[
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting
+industry. Lorem Ipsum has been the industry's standard dummy text
+ever since the 1500s, when an unknown printer took a galley of type
+and scrambled it to make a type specimen book.<br />
+<br />
+ It has survived not only five centuries, but also the leap into
+electronic typesetting, remaining essentially unchanged.<br />
+<br />
+ It was popularised in the 1960s with the release of Letraset
+sheets containing Lorem Ipsum passages, and more recently with
+desktop publishing software like Aldus PageMaker including versions
+of Lorem Ipsum<br />
+<br />
+ It was popularised in the 1960s with the release of Letraset
+sheets containing Lorem Ipsum passages, and more recently with
+desktop publishing software like Aldus PageMaker including versions
+of Lorem Ipsum</p>
+]]></details>
+            <metaTitle />
+            <metaDescription><![CDATA[]]></metaDescription>
+            <umbracoNaviHide>0</umbracoNaviHide>
+          </NewsDetailsTemplate>
+          <NewsDetailsTemplate id="1090" parentID="1061" level="3" writerID="0" creatorID="0" nodeType="1087" template="1088" sortOrder="2" createDate="2012-04-03T13:25:02" updateDate="2012-04-05T16:12:34" nodeName="News 2" urlName="news-2" writerName="admin" creatorName="admin" path="-1,1057,1061,1090" isDoc="">
+            <title>News 2</title>
+            <date>2012-03-13T00:00:00</date>
+            <newsImage>1083</newsImage>
+            <excerpt><![CDATA[
+<p>It was popularised in the 1960s with the release of Letraset
+sheets containing Lorem Ipsum passages,</p>
+]]></excerpt>
+            <details><![CDATA[
+<p>It was popularised in the 1960s with the release of Letraset
+sheets containing Lorem Ipsum passages, and more recently with
+desktop publishing software like Aldus PageMaker including versions
+of Lorem Ipsum</p>
+
+<p>Contrary to popular belief, Lorem Ipsum is not simply random
+text. It has roots in a piece of classical Latin literature from 45
+BC, making it over 2000 years old.</p>
+
+<p>Richard McClintock, a Latin professor at Hampden-Sydney College
+in Virginia, looked up one of the more obscure Latin words,
+consectetur, from a Lorem Ipsum passage, and going through the
+cites of the word in classical literature, discovered the
+undoubtable source.</p>
+]]></details>
+            <metaTitle />
+            <metaDescription><![CDATA[]]></metaDescription>
+            <umbracoNaviHide>0</umbracoNaviHide>
+          </NewsDetailsTemplate>
+          <NewsDetailsTemplate id="1091" parentID="1061" level="3" writerID="0" creatorID="0" nodeType="1087" template="1088" sortOrder="3" createDate="2012-04-03T13:25:58" updateDate="2012-04-05T16:12:48" nodeName="News 3" urlName="news-3" writerName="admin" creatorName="admin" path="-1,1057,1061,1091" isDoc="">
+            <title>News 3</title>
+            <date>2012-04-05T00:00:00</date>
+            <newsImage>1084</newsImage>
+            <excerpt><![CDATA[
+<p>Richard McClintock, a Latin professor at Hampden-Sydney College
+in Virginia, looked up one of the more obscure Latin words,</p>
+]]></excerpt>
+            <details><![CDATA[
+<p>Richard McClintock, a Latin professor at Hampden-Sydney College
+in Virginia, looked up one of the more obscure Latin words,
+consectetur, from a Lorem Ipsum passage, and going through the
+cites of the word in classical literature, discovered the
+undoubtable source.</p>
+
+<p>Contrary to popular belief, Lorem Ipsum is not simply random
+text. It has roots in a piece of classical Latin literature from 45
+BC, making it over 2000 years old.</p>
+
+<p>Lorem Ipsum has been the industry's standard dummy text ever
+since the 1500s, when an unknown printer took a galley of type and
+scrambled it to make a type specimen book.</p>
+
+<p>Richard McClintock, a Latin professor at Hampden-Sydney College
+in Virginia, looked up one of the more obscure Latin words,
+consectetur, from a Lorem Ipsum passage, and going through the
+cites of the word in classical literature, discovered the
+undoubtable source.</p>
+]]></details>
+            <metaTitle />
+            <metaDescription><![CDATA[]]></metaDescription>
+            <umbracoNaviHide>0</umbracoNaviHide>
+          </NewsDetailsTemplate>
+        </NewsTemplate>
+        <ContactUSTemplate id="1067" parentID="1057" level="2" writerID="0" creatorID="0" nodeType="1065" template="1066" sortOrder="2" createDate="2012-04-02T18:28:28" updateDate="2012-04-03T16:54:07" nodeName="Contact" urlName="contact" writerName="admin" creatorName="admin" path="-1,1057,1067" isDoc="">
+          <contentHeaderText><![CDATA[]]></contentHeaderText>
+          <contactFooterText><![CDATA[
+<p>We will NOT pass on your e-mail address to other parties and we
+will NOT contact you unless your message requires a response.</p>
+]]></contactFooterText>
+          <metaTitle />
+          <metaDescription><![CDATA[]]></metaDescription>
+        </ContactUSTemplate>
+        <SideItem id="1075" parentID="1057" level="2" writerID="0" creatorID="0" nodeType="1045" template="0" sortOrder="3" createDate="2012-04-03T12:04:36" updateDate="2012-04-18T18:03:08" nodeName="Testimonials" urlName="testimonials" writerName="admin" creatorName="admin" path="-1,1057,1075" isDoc="">
+          <description><![CDATA[
+<h2>Get more...</h2>
+
+<p>To find out more about me, visit my <a
+href="http://www.linkedin.com/in/shaishavkarnani" target="_blank"
+title="Shaishav Karnani">linkedin</a> profile</p>
+]]></description>
+        </SideItem>
+        <SideItem id="1076" parentID="1057" level="2" writerID="0" creatorID="0" nodeType="1045" template="0" sortOrder="4" createDate="2012-04-03T12:07:14" updateDate="2012-04-03T12:13:46" nodeName="Sidebar Image" urlName="sidebar-image" writerName="admin" creatorName="admin" path="-1,1057,1076" isDoc="">
+          <description><![CDATA[
+<p><img src="/media/175/picture3.jpg" width="257" height="295" alt="Sidebar Image"/></p>
+]]></description>
+        </SideItem>
+      </HomeTemplate>
+    </DocumentSet>
+  </Documents>
+  <DocumentTypes>
+    <DocumentType>
+      <Info>
+        <Name>Master Template</Name>
+        <Alias>MasterTemplate</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowedTemplates>
+          <Template>MasterTemplate</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>MasterTemplate</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Meta Title</Name>
+          <Alias>metaTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Meta Tags</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Meta Description</Name>
+          <Alias>metaDescription</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta Tags</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide from navigation?</Name>
+          <Alias>umbracoNaviHide</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>8</Id>
+          <Caption>Meta Tags</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>ContactUS Template</Name>
+        <Alias>ContactUSTemplate</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>MasterTemplate</Master>
+        <AllowedTemplates>
+          <Template>ContactUSTemplate</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>ContactUSTemplate</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Content Header Text</Name>
+          <Alias>contentHeaderText</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>f3a604bf-018a-4f86-b6d6-c9eeb0e6699d</Definition>
+          <Tab>Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Contact Footer Text</Name>
+          <Alias>contactFooterText</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>f3a604bf-018a-4f86-b6d6-c9eeb0e6699d</Definition>
+          <Tab>Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>15</Id>
+          <Caption>Settings</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Home Template</Name>
+        <Alias>HomeTemplate</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>MasterTemplate</Master>
+        <AllowedTemplates>
+          <Template>HomeTemplate</Template>
+          <Template>MobileHomeTemplate</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>HomeTemplate</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>SideItem</DocumentType>
+        <DocumentType>StandardTemplate</DocumentType>
+        <DocumentType>NewsTemplate</DocumentType>
+        <DocumentType>ContactUSTemplate</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Home Page Image</Name>
+          <Alias>homePageImage</Alias>
+          <Type>ead69342-f06d-4253-83ac-28000225583b</Type>
+          <Definition>93929b9a-93a2-4e2a-b239-d99334440a59</Definition>
+          <Tab>Image Header</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Home Page Image Text</Name>
+          <Alias>homePageImageText</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Image Header</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Home Page Mobile Image</Name>
+          <Alias>homePageMobileImage</Alias>
+          <Type>ead69342-f06d-4253-83ac-28000225583b</Type>
+          <Definition>93929b9a-93a2-4e2a-b239-d99334440a59</Definition>
+          <Tab>Image Header</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Header Logo</Name>
+          <Alias>headerLogo</Alias>
+          <Type>ead69342-f06d-4253-83ac-28000225583b</Type>
+          <Definition>93929b9a-93a2-4e2a-b239-d99334440a59</Definition>
+          <Tab>Base Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Mobile Header Logo</Name>
+          <Alias>mobileHeaderLogo</Alias>
+          <Type>ead69342-f06d-4253-83ac-28000225583b</Type>
+          <Definition>93929b9a-93a2-4e2a-b239-d99334440a59</Definition>
+          <Tab>Mobile Base Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Mobile Body Content</Name>
+          <Alias>mobileBodyContent</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>f3a604bf-018a-4f86-b6d6-c9eeb0e6699d</Definition>
+          <Tab>Mobile Base Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Body</Name>
+          <Alias>body</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Base Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Navigation Links</Name>
+          <Alias>navigationLinks</Alias>
+          <Type>71b8ad1a-8dc2-425c-b6b8-faa158075e63</Type>
+          <Definition>21e798da-e06e-4eda-a511-ed257f78d4fa</Definition>
+          <Tab>Base Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>9</Id>
+          <Caption>Base Content</Caption>
+        </Tab>
+        <Tab>
+          <Id>25</Id>
+          <Caption>Mobile Base Content</Caption>
+        </Tab>
+        <Tab>
+          <Id>10</Id>
+          <Caption>Image Header</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>News Template</Name>
+        <Alias>NewsTemplate</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>MasterTemplate</Master>
+        <AllowedTemplates>
+          <Template>NewsTemplate</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>NewsTemplate</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>NewsDetailsTemplate</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Body</Name>
+          <Alias>body</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Base Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>12</Id>
+          <Caption>Base Content</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>NewsDetails Template</Name>
+        <Alias>NewsDetailsTemplate</Alias>
+        <Icon>.sprTreeDeveloperPython</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>MasterTemplate</Master>
+        <AllowedTemplates>
+          <Template>NewsDetailsTemplate</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>NewsDetailsTemplate</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Title</Name>
+          <Alias>title</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Date</Name>
+          <Alias>date</Alias>
+          <Type>23e93522-3200-44e2-9f29-e61a6fcbb79a</Type>
+          <Definition>5046194e-4237-453c-a547-15db3a07c4e1</Definition>
+          <Tab>Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>News Image</Name>
+          <Alias>newsImage</Alias>
+          <Type>ead69342-f06d-4253-83ac-28000225583b</Type>
+          <Definition>93929b9a-93a2-4e2a-b239-d99334440a59</Definition>
+          <Tab>Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Excerpt</Name>
+          <Alias>excerpt</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>f3a604bf-018a-4f86-b6d6-c9eeb0e6699d</Definition>
+          <Tab>Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Details</Name>
+          <Alias>details</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>14</Id>
+          <Caption>Settings</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Side Item</Name>
+        <Alias>SideItem</Alias>
+        <Icon>doc5.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowedTemplates />
+        <DefaultTemplate>
+        </DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>SideItem</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Description</Name>
+          <Alias>description</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Settings</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>7</Id>
+          <Caption>Settings</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Standard Template</Name>
+        <Alias>StandardTemplate</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>MasterTemplate</Master>
+        <AllowedTemplates>
+          <Template>StandardTemplate</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>StandardTemplate</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Body</Name>
+          <Alias>body</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Base Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Mobile Body Content</Name>
+          <Alias>mobileBodyContent</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>f3a604bf-018a-4f86-b6d6-c9eeb0e6699d</Definition>
+          <Tab>Mobile Base Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>11</Id>
+          <Caption>Base Content</Caption>
+        </Tab>
+        <Tab>
+          <Id>26</Id>
+          <Caption>Mobile Base Content</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+  </DocumentTypes>
+  <Templates>
+    <Template>
+      <Name>ContactUS Template</Name>
+      <Alias>ContactUSTemplate</Alias>
+      <Master>MasterTemplate</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/MasterTemplate.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="contentPlaceholderPage" runat="server">
+  <!-- Insert "contentPlaceholderPage" markup here -->
+  <!--start holder-->
+  <div class="holder_content">
+  <section class="group1">  
+    
+<umbraco:Macro runat="server" language="cshtml">
+<h2>@Model.Name</h2>
+</umbraco:Macro>
+
+    <umbraco:Macro Alias="ContactusUC" runat="server" />
+    <div>
+     <umbraco:Macro runat="server" language="cshtml">
+       @{
+         if(Model.contactFooterText.ToString() != string.Empty) {
+           @Model.contactFooterText
+         }
+       }
+     </umbraco:Macro>
+    </div>  
+  </section>
+  <umbraco:Macro Alias="SidebarPanel" runat="server" />  
+  </div>  
+  <!--end holder-->
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Home Template</Name>
+      <Alias>HomeTemplate</Alias>
+      <Master>MasterTemplate</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/MasterTemplate.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="contentPlaceholderPage" runat="server">
+  <!-- Insert "contentPlaceholderPage" markup here -->
+  <!--start holder-->
+  <div class="holder_content">
+  <section>  
+  <umbraco:Item field="body" runat="server" />
+    </section>
+  <umbraco:Macro Alias="SidebarPanel" runat="server" />  
+  </div>
+  <!--end holder-->
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Master Template</Name>
+      <Alias>MasterTemplate</Alias>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+<script runat="server">
+protected void Page_Load(object sender, EventArgs e)
+{
+  HttpCookie cookie = Request.Cookies["devicemode"];
+  //Response.Write(Request.QueryString["dm"]);
+  if(Request.QueryString["ismobile"] == "1" || Request.QueryString["ismobile"] == "0") {
+      
+      if (cookie == null)
+      {
+        cookie = new HttpCookie("devicemode");
+      }
+
+      cookie["mobilemode"] = Request.QueryString["ismobile"];
+      cookie.Expires = DateTime.Now.AddYears(1);
+      Response.Cookies.Add(cookie);
+    //Response.Cookies("devicemode").Value = 1;
+  } 
+  
+  bool IsMobileDevice = false;
+  
+  if (cookie == null) {
+    IsMobileDevice = Request.Browser.IsMobileDevice;
+  } else {
+    IsMobileDevice = (cookie["mobilemode"] == "1")? true:false;
+  }
+  if (IsMobileDevice)
+  {
+    string template = new umbraco.cms.businesslogic.template.Template(umbraco.presentation.nodeFactory.Node.GetCurrent().template).Alias;
+    if (template.Substring(0,6).ToLower() != "mobile")
+    {
+      string x = HttpContext.Current.Request.Url.AbsoluteUri;
+      if (x.Contains("?"))
+      {
+        Response.Redirect(x+"&altTemplate=mobile"+template); 
+      }
+      else
+      {
+        Response.Redirect(x+"?altTemplate=mobile"+template);
+      }
+    }
+  }
+}
+</script>  
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+<!doctype html>
+  <html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<umbraco:Macro metaType="metatitle" Alias="MetaTags" runat="server"></umbraco:Macro>
+<umbraco:Macro metaType="metadescription" Alias="MetaTags" runat="server"></umbraco:Macro>
+
+<link rel="icon" href="images/favicon.gif" type="image/x-icon"/>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
+<link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+  <script src="scripts/jquery-1.4.4.min.js" type="text/javascript"></script>
+</head>
+<body>
+<!--start container-->
+<div id="container">
+  <umbraco:Macro Alias="HeaderPanel" runat="server" />
+
+  <asp:ContentPlaceHolder Id="contentPlaceholderPage" runat="server">
+    <!-- Insert default "contentPlaceholderPage" markup here -->
+  </asp:ContentPlaceHolder>
+
+
+</div>
+  <umbraco:Macro Alias="FooterPanel" runat="server"></umbraco:Macro>
+
+
+</body>
+</html>
+  
+  
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Mobile ContactUS Template</Name>
+      <Alias>MobileContactUSTemplate</Alias>
+      <Master>MobileMasterTemplate</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/MobileMasterTemplate.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="contentPlaceholderPage" runat="server">
+  <!-- Insert "contentPlaceholderPage" markup here -->
+  <!--start holder-->
+  <div class="holder_content">
+  <section class="group1">  
+    
+<umbraco:Macro runat="server" language="cshtml">
+<h2>@Model.Name</h2>
+</umbraco:Macro>
+
+    <umbraco:Macro Alias="ContactusUC" runat="server" />
+    <div>
+     <umbraco:Macro runat="server" language="cshtml">
+       @{
+         if(Model.contactFooterText.ToString() != string.Empty) {
+           @Model.contactFooterText
+         }
+       }
+     </umbraco:Macro>
+    </div>  
+  </section>
+   
+  </div>  
+  <!--end holder-->
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Mobile Home Template</Name>
+      <Alias>MobileHomeTemplate</Alias>
+      <Master>MobileMasterTemplate</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/MobileMasterTemplate.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="contentPlaceholderPage" runat="server">
+  <!-- Insert "contentPlaceholderPage" markup here -->
+  <!--start holder-->
+  <div class="holder_content">
+ <umbraco:Macro Alias="MobileMainPanel" runat="server" />
+   
+  </div>
+  <!--end holder-->
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Mobile Master Template</Name>
+      <Alias>MobileMasterTemplate</Alias>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+<!doctype html>
+  <html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<umbraco:Macro metaType="metatitle" Alias="MetaTags" runat="server"></umbraco:Macro>
+<umbraco:Macro metaType="metadescription" Alias="MetaTags" runat="server"></umbraco:Macro>
+
+<link rel="icon" href="images/favicon.gif" type="image/x-icon"/>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
+<link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="/css/iphone.css"/>
+  <script src="scripts/jquery-1.4.4.min.js" type="text/javascript"></script>
+</head>
+<body>
+<!--start container-->
+<div id="wrap">
+ 
+  <umbraco:Macro Alias="MobileHeaderPanel" runat="server" />
+
+  <asp:ContentPlaceHolder Id="contentPlaceholderPage" runat="server">
+    <!-- Insert default "contentPlaceholderPage" markup here -->
+  </asp:ContentPlaceHolder>
+
+  <umbraco:Macro Alias="MobileFooterPanel" runat="server" />
+</div>
+
+
+
+</body>
+</html>
+  
+  
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Mobile News Template</Name>
+      <Alias>MobileNewsTemplate</Alias>
+      <Master>MobileMasterTemplate</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/MobileMasterTemplate.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="contentPlaceholderPage" runat="server">
+  <!-- Insert "contentPlaceholderPage" markup here -->
+  <!--start holder-->
+  <div class="holder_content">
+  <umbraco:Macro Alias="MobileNewsPanel" runat="server"></umbraco:Macro>
+  
+  </div>
+  <!--end holder-->
+  
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Mobile NewsDetails Template</Name>
+      <Alias>MobileNewsDetailsTemplate</Alias>
+      <Master>MobileMasterTemplate</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/MobileMasterTemplate.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="contentPlaceholderPage" runat="server">
+  <!-- Insert "contentPlaceholderPage" markup here -->
+  <!--start holder-->
+  <div class="holder_content">
+  <umbraco:Macro Alias="NewsDetailsPanel" runat="server"></umbraco:Macro>
+   
+  </div>
+  <!--end holder-->
+  
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Mobile Standard Template</Name>
+      <Alias>MobileStandardTemplate</Alias>
+      <Master>MobileMasterTemplate</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/MobileMasterTemplate.master" AutoEventWireup="true" %>
+  
+<asp:Content ContentPlaceHolderId="contentPlaceholderPage" runat="server">
+  <!-- Insert "contentPlaceholderPage" markup here -->
+  <!--start holder-->
+  <div class="holder_content">
+  <umbraco:Macro Alias="MobileMainPanel" runat="server" />
+   
+  </div>
+  <!--end holder-->
+  
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>News Template</Name>
+      <Alias>NewsTemplate</Alias>
+      <Master>MasterTemplate</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/MasterTemplate.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="contentPlaceholderPage" runat="server">
+  <!-- Insert "contentPlaceholderPage" markup here -->
+  <!--start holder-->
+  <div class="holder_content">
+  <umbraco:Macro Alias="NewsPanel" runat="server" />
+  <umbraco:Macro Alias="SidebarPanel" runat="server" />  
+  </div>
+  <!--end holder-->
+  
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>NewsDetails Template</Name>
+      <Alias>NewsDetailsTemplate</Alias>
+      <Master>MasterTemplate</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/MasterTemplate.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="contentPlaceholderPage" runat="server">
+  <!-- Insert "contentPlaceholderPage" markup here -->
+  <!--start holder-->
+  <div class="holder_content">
+  <umbraco:Macro Alias="NewsDetailsPanel" runat="server"></umbraco:Macro>
+  <umbraco:Macro Alias="SidebarPanel" runat="server" />  
+  </div>
+  <!--end holder-->
+  
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Standard Template</Name>
+      <Alias>StandardTemplate</Alias>
+      <Master>MasterTemplate</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/MasterTemplate.master" AutoEventWireup="true" %>
+  
+<asp:Content ContentPlaceHolderId="contentPlaceholderPage" runat="server">
+  <!-- Insert "contentPlaceholderPage" markup here -->
+  <!--start holder-->
+  <div class="holder_content">
+  <section> 
+  <umbraco:Item field="body" runat="server" />
+    </section>
+  <umbraco:Macro Alias="SidebarPanel" runat="server" />  
+  </div>
+  <!--end holder-->
+  
+</asp:Content>]]></Design>
+    </Template>
+  </Templates>
+  <Stylesheets>
+    <Stylesheet>
+      <Name>dummyStyle</Name>
+      <FileName>
+      </FileName>
+      <Content><![CDATA[
+
+]]></Content>
+      <Properties>
+        <Property>
+          <Name>heading</Name>
+          <Alias>h1</Alias>
+          <Value>
+          </Value>
+        </Property>
+        <Property>
+          <Name>imagelink</Name>
+          <Alias>.button</Alias>
+          <Value>
+          </Value>
+        </Property>
+        <Property>
+          <Name>heading2</Name>
+          <Alias>h2</Alias>
+          <Value>
+          </Value>
+        </Property>
+      </Properties>
+    </Stylesheet>
+    <Stylesheet>
+      <Name>iphone</Name>
+      <FileName>
+      </FileName>
+      <Content><![CDATA[@media only screen and (max-width:400px) {
+    body {width:100%;}
+}
+@media only screen and (min-width:320px) {
+    body {max-width:320px;}
+}
+
+
+/**************************************************
+                  Global styles
+***************************************************/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+    margin:0; padding:0; 
+    border:0; outline:0; 
+    font-size:100%; 
+    vertical-align:baseline; 
+    background:transparent; 
+    list-style-type:none; 
+    }
+
+ol, ul {list-style: none;}
+a img {border:none;}
+aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block}
+html, body {width:100%;    height:100%;}
+
+html, body {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:12px;
+    color: black;
+    margin:0 0 1px;
+    line-height:normal;
+    background:url(images/bg1.png) left top repeat;
+     margin:0 auto;
+    
+}
+p {margin-bottom:10px; line-height:17px;}
+a, p a {text-decoration:none; color:#f0b400;}
+a:hover {text-decoration:underline;}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-weight: normal; position:relative;
+}
+h1 {
+    font-size: 35px; line-height:1.6;
+    color:black; text-transform:capitalize;
+    text-align:left; margin-left:40px;
+    border-bottom:1px dotted black;
+}
+h1 span {
+    line-height:1.7px; color:black;
+    font-size:14px; text-transform:none;
+    display:block;
+}
+h2 {
+    background-color: transparent;
+    border-bottom: 1px dotted black;
+    color: #F0B400;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+    text-align: left;
+    text-transform: none;
+}
+h3 {
+    font-size:18px; line-height:1.6;
+    color:#f0b400; text-transform:none;
+    text-align:left; background-color:transparent;
+    border-bottom:1px dotted black; margin-bottom:5px;
+}
+h3 span {
+    font-size: 12px; color: black;
+    text-transform:capitalize;
+    height:24px; margin-top:15px;
+    text-align:left; display:block;
+}
+h4 {
+    font-size:16px;
+    color:black; text-align:left; font-weight:bold;
+    padding-top:8px; margin-bottom:12px;
+}
+h4 span {
+    font-weight:bold;
+    font-size:15px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    background-color:#FFCC33;
+    padding:3px 8px;
+    margin-left:10px;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+}
+
+#wrap{
+    min-height:370px; background:#FFFFFF; padding:0px 5px;    
+    -moz-box-shadow: 0 0 5px 5px #D8D8D8;
+    -webkit-box-shadow: 0 0 5px 5px #D8D8D8;
+    box-shadow: 0 0 5px 5px #D8D8D8;
+    }
+#mainContent{min-height:370px;}
+
+/* Header Navigation --------------------------------------------*/
+
+header {
+    position: relative;    float:left;
+    width: 100%; height:100px;
+}
+#logo {
+    margin:5px 0px 5px 60px;
+    width:170px; height:56px; display:block;
+}
+
+nav {
+    position: relative;
+    width:297px; height:31px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    background:black;
+    padding:0px 5px 0px 8px;
+}
+nav ul li {
+    float: left;
+    margin:0px 1px;
+    line-height:normal;
+}
+nav ul li a {
+    font-size:12px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    color: white;
+    text-transform:capitalize;
+    font-weight:normal;
+    display:block;    /* IE6, IE7 line height fix */
+    padding:8px 10px;
+    background-color:transparent;
+    margin-top:0px;
+    margin-right:2px;
+    text-decoration:none;
+}
+nav ul li a:hover {
+    color: white;
+    background-color:#FFCC33;
+    text-decoration:none;
+}
+nav ul li a.current {
+    background-color:#FFCC33;
+    padding:8px 10px;
+}
+
+/* Body Text --------------------------------------------*/
+.holder_content {
+    background:white; padding:0px 5px 6px;
+    clear:both;    margin:0px;
+}
+
+.holder_content section{
+    clear:both;
+    position: relative;
+    background:white;
+    }
+    
+.holder_content section article{
+    clear:both;    margin-right:0px;
+    border-bottom:1px dotted black;
+    }
+.holder_content .block{color:inherit; text-decoration:none;}
+
+.holder_content section article span {
+    font-weight:bold;
+    font-size:12px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    color:#333333;
+}
+
+
+/* Footer --------------------------------------------*/
+
+#footer{ 
+    padding:10px 6px 0px; margin-bottom:10px;  
+    color:#fff; font-size:11px; min-height:30px; 
+    clear:both;
+    background:#000;
+  }
+#footer p{float:right;}
+#footer p:first-child{float:left; }
+
+
+/*Contact Form --------------------------------------------*/
+.input_box input:hover, input:focus, textarea:hover, textarea:focus{
+    border-color:#cbcaca;
+}
+.input_box{padding-bottom:4px; font-size:13px;}
+.input_box .input_box{
+    border:1px solid #D9D9D9; width:248px; 
+    font-size:12px; color:#6c6c6c; 
+    height:15px; background:#eaeaea; 
+    border-radius: 5px 5px 5px 5px;
+    }
+
+.input_box .select_box{
+    width:250px; height:20px; border:1px solid #D9D9D9; 
+    margin-bottom:2px; overflow:hidden; border-radius: 5px 5px 5px 5px;
+    background:#eaeaea url(images/down_arrow.gif) no-repeat right;    
+    }
+.input_box .select_box select{
+    background:transparent; padding:0px 1px; font-size:16px; 
+    width:270px; height:20px; border:none;        
+    font-size:12px; color:#6c6c6c;
+    -webkit-appearance:none;
+    }
+
+.submit_button {
+    background:#FFCC33; font-weight: bold; outline:0px; height:25px; 
+    color: #454545; cursor: pointer; font-size:13px; padding:0px 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    -khtml-border-radius:5px; -opera-border-radius:5px;
+    -webkit-border-radius:5px; -moz-border-radius:5px;
+    border-radius:5px; border:1px solid #ffcd24;
+}
+
+/*================= New Add Css =====================*/
+.margin_bottom{margin-bottom:10px;}
+.margin_bottom .lable{width:150px; display:block; float:left; padding-top:2px}
+
+.margin_bottom .TextBox{
+  width:300px;
+  padding:3px;
+  background:#eaeaea;
+  -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    -opera-border-radius:5px;
+    border-radius:5px;
+  border:1px solid #d9d9d9;
+}
+
+.margin_bottom .TextBoxError{
+  width:300px;
+  padding:3px;
+  background:#eaeaea;
+  -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    -opera-border-radius:5px;
+    border-radius:5px;
+  border:1px solid #ff0000;
+}
+
+.SubmitButton{
+    background:url(images/submit-bttn.png) no-repeat scroll 0 0 transparent;
+    border:0 solid #A3B00E;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow:0 1px 2px #FFFFFF inset;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    height:24px; width:110px;
+    margin-right:8%;
+    overflow: hidden;
+    text-transform: uppercase;    
+}
+.contactTextDiv {color: #515151; float: left; width: 140px;}
+
+.errorRed
+{
+  color:#ff0000;
+  font-weight:bold;
+}
+
+
+
+.errorStatementDiv {
+  margin:0px 0px 10px;
+  color:#ff0000;
+}
+
+.submitButtonDiv {
+    height: 24px;
+    padding: 0 0 30px 0;
+}
+
+
+
+
+]]></Content>
+    </Stylesheet>
+    <Stylesheet>
+      <Name>styles</Name>
+      <FileName>
+      </FileName>
+      <Content><![CDATA[/***************************************************
+        fresh ideas by marija zaric
+        template distributed by
+        http: //freehtml5templates.com        
+***************************************************
+
+
+***************************************************
+            Reset
+***************************************************/
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li, form, label, legend, caption, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+ol, ul {list-style: none;}
+a img {border:none;color:#ffcc33;}
+aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block}
+
+/**************************************************
+            Global styles
+***************************************************/
+
+html, body {
+  width:100%;
+  height:100%;
+}
+html, body {
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+  color: black;
+  margin:0 0 1px;
+  line-height: 1.5;
+  background-image:url(../images/bg1.png);
+  background-position:left top;
+  background-repeat:repeat;
+}
+p {margin-bottom:7px;}
+a, p a {text-decoration:none; color:#f2b500;}
+a:hover {text-decoration:underline;}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  position:relative;
+}
+h1 {
+  font-size: 35px;
+  line-height:1.6;
+  color:black;
+  text-transform:capitalize;
+  text-align:left;
+  margin-left:40px;
+  border-bottom:1px dotted black;
+}
+h1 span {
+  line-height:1.7px;
+  color:black;
+  font-size:14px;
+  text-transform:none;
+  display:block;
+}
+h3 {
+  font-size: 18px;
+  line-height:1.7;
+  color:black;
+  text-align:left;
+  width:350px;
+  /*padding-top:8px;*/
+  margin-left:40px;
+}
+h2 {
+  font-size: 28px;
+  line-height:1.6;
+  color:black;
+  text-transform:none;
+  text-align:left;
+  background-color:transparent;
+  padding-top:12px;
+  margin-bottom:9px;
+  border-bottom:1px dotted black;
+}
+h2 span {
+  font-size: 12px;
+  color: black;
+  text-transform:capitalize;
+  height:24px;
+  margin-top:15px;
+  text-align:left;
+  display:block;
+}
+h4 {
+  font-size: 18px;
+  line-height:1.7;
+  color:black;
+  text-align:left;
+  /*width:350px;*/
+  padding-top:8px;
+  margin-bottom:12px;
+}
+h4 span {
+  font-weight:bold;
+  font-size:15px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  background-color:#FFCC33;
+  padding:8px;
+  margin-left:20px;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+}
+/***************************************************
+          Logo and Navigation
+***************************************************/
+
+header {
+  position: relative;
+  float:left;
+  width: 100%;
+  height:100px;
+}
+#logo {
+  position:relative;
+  float:left;
+  top:10px;
+  left:0px;
+  width:250px;
+  height:160px;
+}
+nav {
+  position:absolute;
+  width:440px;
+  top:25px;
+  right:0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+  background:black;
+  padding:0px 5px 0px 10px;
+}
+nav ul li {
+  float: left;
+  /*margin:0px 5px;*/
+  line-height:normal;
+}
+nav ul li a {
+  font-size: 20px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  color: white;
+  text-transform:capitalize;
+  font-weight:normal;
+  display:block;  /* IE6, IE7 line height fix */
+  padding:15px;
+  background-color:transparent;
+  margin-top:0px;
+  margin-right:6px;
+  text-decoration:none;
+}
+nav ul li a:hover {
+  color: white;
+  background-color:#FFCC33;
+  text-decoration:none;
+}
+nav ul li a.current {
+  background-color:#FFCC33;
+  padding:15px;
+}
+/**************************************************
+      Header and INTRO
+***************************************************/    
+#Header {
+  width: 960px;
+  /*background:#EAEAEA url(../images/banner1.png) center 10px no-repeat;
+  position: relative;*/
+  background:#EAEAEA;
+  float: left;
+  height:318px;
+  padding:10px;
+  margin-top:17px;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+}
+.group_bannner_left {
+  width: 380px;
+  position: absolute;
+  top:146px;
+  left:50px;
+  background:transparent;
+  margin-top:50px;
+}
+
+.group_bannner_left p{
+  font-size: 18px;
+  line-height:1.7;
+  color:black;
+  text-align:left;
+  width:350px;
+  margin-left:40px;
+  }
+.button {
+  display:inline-block; zoom: 1; *display: inline;
+  vertical-align: baseline; margin: 8px 27px;
+  outline: none;  cursor: pointer; color:#FFFFFF;
+  text-align: center;  text-decoration: none;
+  font: 16px/100% Georgia, "Times New Roman", Times, serif;
+  padding: .5em 2em .55em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .2);  
+  border: solid 1px #333;
+  background: #333;
+  background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+  background: -moz-linear-gradient(top, #666, #000);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+}
+.button:hover {
+  text-decoration: none;  color:#f2b500;   
+  background: #000; text-decoration:none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+  background: -moz-linear-gradient(top, #444, #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
+}
+/*.button:active {
+  position: relative;
+  top: 1px;
+}
+.black {
+  color: #d7d7d7;
+  border: solid 1px #333;
+  background: #333;
+  background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+  background: -moz-linear-gradient(top, #666, #000);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+}
+.black a{color: #ffffff; text-decoration:none;}
+.black:hover {
+  background: #000; text-decoration:none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+  background: -moz-linear-gradient(top, #444, #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
+}*/
+/***************************************************
+          Main containers
+***************************************************/
+
+#container, #container_left, #container_right {
+  position: relative;
+  width:100%;
+}
+#container {
+  position:relative;
+  width:980px;
+  margin:0 auto;
+  text-align:left;
+  background-color:white;
+  padding:15px;
+  overflow: hidden;
+  -moz-box-shadow: 0 0 5px 5px #D8D8D8;
+  -webkit-box-shadow: 0 0 5px 5px #D8D8D8;
+  box-shadow: 0 0 5px 5px #D8D8D8;
+}
+.holder_content {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-bottom:8px;
+  background:white;
+}
+/*.group1 {
+  float: left;
+  width: 613px;
+  position: relative;
+  background:white;
+  padding:15px;
+  margin-bottom:10px;
+}
+.group2 {
+  float: right;
+  width: 277px;
+  position: relative;
+  background:white;
+  padding:15px;
+  margin-bottom:10px;
+  margin-left:30px;
+}
+.group3 {
+  float: left;
+  width: 613px;
+  position: relative;
+  background:white;
+  padding:15px;
+  margin-top:-28px;
+}*/
+/*.readmore {
+  font-weight:bold;
+  font-size:15px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  color:#333333;
+}
+.readmore a {
+  color:#f2b500;
+}
+.holder_news {
+  width:274px;
+  float:left;
+  border-bottom:1px dotted black;
+  margin-bottom:10px;
+  padding-bottom:12px;
+}*/
+
+/***************************************************
+           Left Side Container
+***************************************************/  
+
+.holder_content section{
+  float: left;
+  width: 613px;
+  position: relative;
+  background:white;
+  padding:15px;
+  margin-bottom:10px;
+  }
+  
+.holder_content section article{
+  width:610px;
+  float:left;
+  margin-right:10px;
+  border-bottom:1px dotted black;
+  margin-bottom:6px;
+  padding-bottom:6px;
+  }
+.holder_content section img{
+  background-color:white;
+  border: 1px solid #E1E1E1;
+  position:relative;
+  float: left;
+  margin:5px 13px 8px 0;
+  padding: 8px;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+}
+.holder_content section article h2 {
+  clear:left
+}
+/*.holder_content section article span {
+  font-weight:bold;
+  font-size:15px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  color:#333333;
+}*/
+
+/***************************************************
+           Right Side Container
+***************************************************/
+.holder_content aside{
+  float: right;
+  width: 277px;
+  position: relative;
+  background:white;
+  padding:15px;
+  /*margin-bottom:10px;*/
+  margin-left:30px;
+  }
+.holder_content aside article{
+  /*width:274px;*/
+  float:left;
+  border-bottom:1px dotted black;
+  margin-bottom:10px;
+  padding-bottom:12px;
+  }
+/*.holder_content aside article span{
+  font-weight:bold;
+  font-size:15px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  color:#333333;
+}*/
+
+.holder_content aside img{
+  background-color:white;
+  border: 1px solid #E1E1E1;
+  position:relative;
+  float: left;
+  margin:5px 13px 8px 0;
+  padding: 8px;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+}  
+ /****************************************************
+              GALLERY
+***************************************************/
+/*a.photo_hover3 {
+  position:relative;
+  float: right;
+  margin:5px 13px 8px 0;
+  padding: 8px;
+}
+a.photo_hover3 {
+  background-color:white;
+  border: 1px solid #E1E1E1;
+}
+a.photo_hover3:hover {
+  border: 1px dotted #66CCFF;
+  background-color:#C7EDFF;
+  opacity:0.9;
+  z-index:1000;
+}
+a.photo_hover2 {
+  position:relative;
+  float: left;
+  margin:5px 13px 8px 0;
+  padding: 8px;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+}
+a.photo_hover2 {
+  background-color:white;
+  border: 1px solid #E1E1E1;
+}
+a.photo_hover2:hover {
+  border: 1px solid #E1E1E1;
+}*/
+/***************************************************
+           GALLERY
+***************************************************/  
+
+/*.holder_gallery {
+  width:610px;
+  float:left;
+  margin-right:10px;
+  padding:0;
+}
+.holder_gallery a.photo_hover {
+  left:42px
+}
+.holder_gallery h3 {
+  clear:left
+}*/
+/**************************************************
+              FOOTER
+***************************************************/
+
+footer {
+  position:relative;
+  height:90px;
+  clear:both;
+  width:100%;
+  margin-bottom:18px;
+  background-color:black;
+}
+#FooterOne, #FooterTwo, #FooterTree {
+  position: absolute;
+}
+#FooterTwo {
+  position: absolute;
+  right: 225px;
+  top:26px;
+  color:white;
+}
+#FooterTree {
+  position: absolute;
+  left: 225px;
+  top:26px;
+  color:white;
+}
+.container {
+  width:980px;
+  margin:0 auto;
+  background-color:#33CC99;
+}
+
+/*================= New Add Css =====================*/
+.margin_bottom{margin-bottom:10px;}
+.margin_bottom .lable{width:150px; display:block; float:left; padding-top:2px}
+
+.margin_bottom .TextBox{
+  width:300px;
+  padding:3px;
+  background:#eaeaea;
+  -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    -opera-border-radius:5px;
+    border-radius:5px;
+  border:1px solid #d9d9d9;
+}
+
+.margin_bottom .TextBoxError{
+  width:300px;
+  padding:3px;
+  background:#eaeaea;
+  -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    -opera-border-radius:5px;
+    border-radius:5px;
+  border:1px solid #ff0000;
+}
+
+.SubmitButton{
+    background:url(images/submit-bttn.png) no-repeat scroll 0 0 transparent;
+    border:0 solid #A3B00E;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow:0 1px 2px #FFFFFF inset;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    height:24px; width:110px;
+    margin-right:8%;
+    overflow: hidden;
+    text-transform: uppercase;    
+}
+.contactTextDiv {color: #515151; float: left; width: 140px;}
+
+.errorRed 
+{
+  color:#ff0000;
+  font-weight:bold;
+}
+
+
+
+.errorStatementDiv {
+  margin:0px 0px 10px;
+  color:#ff0000;
+}
+
+.submitButtonDiv {
+    height: 24px;
+    padding: 0 0 30px 150px;
+}
+
+
+
+
+
+
+]]></Content>
+    </Stylesheet>
+  </Stylesheets>
+  <Macros>
+    <macro>
+      <name>Contactus Panel</name>
+      <alias>ContactusPanel</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>
+      </xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>contactusPanel.cshtml</scriptingFile>
+      <properties />
+    </macro>
+    <macro>
+      <name>Contactus UC</name>
+      <alias>ContactusUC</alias>
+      <scriptType>usercontrols/contactusUC.ascx</scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>
+      </xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>
+      </scriptingFile>
+      <properties />
+    </macro>
+    <macro>
+      <name>Footer Panel</name>
+      <alias>FooterPanel</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>
+      </xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>footerPanel.cshtml</scriptingFile>
+      <properties />
+    </macro>
+    <macro>
+      <name>Header Panel</name>
+      <alias>HeaderPanel</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>
+      </xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>headerPanel.cshtml</scriptingFile>
+      <properties />
+    </macro>
+    <macro>
+      <name>Main Panel</name>
+      <alias>MainPanel</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>
+      </xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>mainPanel.cshtml</scriptingFile>
+      <properties />
+    </macro>
+    <macro>
+      <name>Meta Tags</name>
+      <alias>MetaTags</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>
+      </xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>metaTags.cshtml</scriptingFile>
+      <properties />
+    </macro>
+    <macro>
+      <name>Mobile Footer Panel</name>
+      <alias>MobileFooterPanel</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>
+      </xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>mobileFooterPanel.cshtml</scriptingFile>
+      <properties />
+    </macro>
+    <macro>
+      <name>Mobile Header Panel</name>
+      <alias>MobileHeaderPanel</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>
+      </xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>mobileHeaderPanel.cshtml</scriptingFile>
+      <properties />
+    </macro>
+    <macro>
+      <name>Mobile Main Panel</name>
+      <alias>MobileMainPanel</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>
+      </xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>mobileMainPanel.cshtml</scriptingFile>
+      <properties />
+    </macro>
+    <macro>
+      <name>Mobile Main Panel</name>
+      <alias>MobileMainPanel</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>
+      </xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>mobileMainPanel.cshtml</scriptingFile>
+      <properties />
+    </macro>
+    <macro>
+      <name>Mobile News Panel</name>
+      <alias>MobileNewsPanel</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>
+      </xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>mobileNewsPanel.cshtml</scriptingFile>
+      <properties />
+    </macro>
+    <macro>
+      <name>News Details Panel</name>
+      <alias>NewsDetailsPanel</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>
+      </xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>newsDetailsPanel.cshtml</scriptingFile>
+      <properties />
+    </macro>
+    <macro>
+      <name>News Panel</name>
+      <alias>NewsPanel</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>
+      </xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>newsPanel.cshtml</scriptingFile>
+      <properties />
+    </macro>
+    <macro>
+      <name>Sidebar Panel</name>
+      <alias>SidebarPanel</alias>
+      <scriptType>
+      </scriptType>
+      <scriptAssembly>
+      </scriptAssembly>
+      <xslt>
+      </xslt>
+      <useInEditor>False</useInEditor>
+      <refreshRate>0</refreshRate>
+      <scriptingFile>sidebarPanel.cshtml</scriptingFile>
+      <properties />
+    </macro>
+  </Macros>
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+</umbPackage>

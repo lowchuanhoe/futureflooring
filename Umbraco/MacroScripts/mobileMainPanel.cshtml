@@ -1,0 +1,12 @@
+﻿@{
+   
+  
+    <section>
+    @if(Model.mobileBodyContent.ToString() != string.Empty) {
+        @Model.mobileBodyContent
+     }else {
+          @Model.body
+         }   
+      
+    </section>
+}

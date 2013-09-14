@@ -1,0 +1,21 @@
+﻿@{
+  var homeNode = Model.AncestorOrSelf(1);
+ 
+
+    <section>
+    @if(Model.Title.ToString() != string.Empty) {
+        <h2>@Model.Title</h2>
+                                                 
+     }
+     @if(Model.newsImage.ToString() != string.Empty) {
+        <img src='@Library.MediaById(Model.newsImage).UmbracoFile' alt="" border="0" />
+                                                 
+     }
+     @if(Model.details.ToString() != string.Empty) {
+        @Model.details
+                                                 
+     } 
+    </section>
+ 
+}   
+    

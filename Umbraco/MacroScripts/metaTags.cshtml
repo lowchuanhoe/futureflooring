@@ -1,0 +1,30 @@
+﻿@{
+  var page = Model;
+    
+  var itemsPerPage = Parameter.metaType;  
+  var metaTitle = page.metaTitle;
+  var metaDescription = page.metaDescription;  
+
+  
+  foreach(var level in page.Ancestors())
+  {
+    if(metaTitle.ToString() == string.Empty)
+    {
+       metaTitle = level.metaTitle;
+    }
+
+    if(metaDescription.ToString() == string.Empty)
+    {
+       metaDescription  = level.metaDescription;
+    }
+  }
+  
+  if (Parameter.metaType == "metatitle")
+  {
+     <title>@metaTitle</title>
+  }
+  else
+  {
+     <meta name="description" content="@metaDescription"/>
+  }
+}

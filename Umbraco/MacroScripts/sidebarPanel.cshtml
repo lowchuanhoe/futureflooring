@@ -1,0 +1,17 @@
+﻿@{
+  var homeNode = Model.AncestorOrSelf(1);
+
+if(homeNode.Children.Count() > 0) {
+   
+     foreach(var sideItem in homeNode.Children) {
+        if(sideItem.NodeTypeAlias == "SideItem"){
+          if(sideItem.description.ToString() != string.Empty) {
+            <aside>
+              @sideItem.description
+            </aside>
+          }                                                     
+        }                                         
+                                                 
+     }                                    
+   }   
+}

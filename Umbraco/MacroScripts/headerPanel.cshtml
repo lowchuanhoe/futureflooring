@@ -1,0 +1,49 @@
+﻿@{
+  var homeNode = Model.AncestorOrSelf(1);
+  var CurrentPage = Model;
+  }
+
+<!--start header-->
+  <header>
+ @if(homeNode.headerLogo.ToString() != string.Empty) {
+  <!--start logo-->
+   <a href='#' id="logo"><img src='@Library.MediaById(homeNode.headerLogo).UmbracoFile' width="221" height="84" alt="logo"></a>
+  <!--end logo-->                                                     
+ }
+ @if(homeNode.Children.Count() > 0) {
+   <nav>
+      <ul> 
+         <li><a class='@Library.If(homeNode.Id == Model.Id, "current","")' href="@homeNode.Url">@homeNode.Name</a></li>                          
+      @foreach (var page in homeNode.Children.Where("nodeTypeAlias == \"StandardTemplate\" || nodeTypeAlias == \"ContactUSTemplate\" || nodeTypeAlias == \"HomeTemplate\" || nodeTypeAlias == \"NewsTemplate\" ").Where("Visible")) {
+        CurrentPage = Model;
+        if(Model.NodeTypeAlias == "NewsDetailsTemplate") {
+          
+          CurrentPage = Model.Parent;                                                  
+        }
+        <li><a class='@Library.If(page.Id == CurrentPage.Id,"current","")' href="@page.Url">@page.Name</a></li>  
+                                                                                
+    }
+     </ul>
+    </nav>   
+ }
+
+    
+  </header>
+  <!--end header-->
+  <!--start intro-->
+
+@{
+  if(Model.homePageImage.ToString() != string.Empty) {
+  
+    <div id="Header"><img src='@Library.MediaById(Model.homePageImage).UmbracoFile' alt="" border="0">
+    <header class="group_bannner_left">
+      <hgroup>
+        @if(Model.homePageImageText.ToString() != string.Empty){                                                 
+          @Model.homePageImageText
+        }
+      </hgroup>
+     </header>
+    </div>
+   }
+  <!--end intro-->
+}

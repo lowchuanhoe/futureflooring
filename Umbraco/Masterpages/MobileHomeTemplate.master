@@ -1,0 +1,10 @@
+<%@ Master Language="C#" MasterPageFile="~/masterpages/MobileMasterTemplate.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderId="contentPlaceholderPage" runat="server">
+  <!-- Insert "contentPlaceholderPage" markup here -->
+  <!--start holder-->
+  <div class="holder_content">
+ <umbraco:Macro Alias="MobileMainPanel" runat="server" />
+   
+  </div>
+  <!--end holder-->
+</asp:Content>
